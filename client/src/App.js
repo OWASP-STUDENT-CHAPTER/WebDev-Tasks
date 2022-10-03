@@ -1,8 +1,10 @@
+import CurrentTask from "./components/common/CurrentTask";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl">Test</h1>
-    </div>
+    <>
+      <CurrentTask />
+    </>
   );
 }
 
