@@ -6,47 +6,47 @@ const Links = () => {
     {
       id: 1,
       name: "Yashvardhan",
-      url: "yashvardhan/",
+      url: "yashvardhan",
     },
     {
       id: 2,
       name: "Yash",
-      url: "yash/",
+      url: "yash",
     },
     {
       id: 3,
       name: "Yashu",
-      url: "yashu/",
+      url: "yashu",
     },
     {
       id: 4,
       name: "Yashu Bhai",
-      url: "yashubhai/",
+      url: "yashubhai",
     },
     {
       id: 5,
       name: "Yashu Bhaiya",
-      url: "yashubhaiya/",
+      url: "yashubhaiya",
     },
     {
       id: 6,
       name: "Yashu Bhaiyya",
-      url: "yashubhaiyya/",
+      url: "yashubhaiyya",
     },
     {
       id: 7,
       name: "Yashu Bhaiyya Ji",
-      url: "yashubhaiyyaji/",
+      url: "yashubhaiyyaji",
     },
     {
       id: 8,
       name: "Yashu Bhaiyya Ji",
-      url: "yashubhaiyyaji/",
+      url: "yashubhaiyyaji",
     },
     {
       id: 9,
       name: "Yashu Bhaiyya Ji",
-      url: "yashubhaiyyaji/",
+      url: "yashubhaiyyaji",
     },
   ];
 
@@ -55,11 +55,9 @@ const Links = () => {
       <div className="mt-4 grid grid-cols-4 gap-8">
         {links.map((link) => {
           return (
-            <Button key={link.id}>
-              <Link to={link.url} className="w-full text-lg">
-                {link.name}
-              </Link>
-            </Button>
+            <Link to={link.url} className="w-full text-lg">
+              <Button key={link.id}>{link.name}</Button>
+            </Link>
           );
         })}
       </div>
