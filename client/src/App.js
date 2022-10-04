@@ -1,13 +1,13 @@
-import Button from "./components/common/Button";
-import CurrentTask from "./components/common/CurrentTask";
-import Links from "./components/common/Links";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
-      <CurrentTask />
-      <Links />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
