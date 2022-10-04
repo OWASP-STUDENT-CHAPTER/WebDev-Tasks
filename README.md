@@ -1,3 +1,5 @@
+![hacktoberfest](./assets/WhatsApp%20Image%202022-10-05%20at%2000.28.18.jpeg)
+
 # WebDev-Tasks
 
 Frontend development is all about practicing and learning the different frameworks, libraries and systems. This web-app is aimed at frontend developers who wish to improve their skills by practicing coding UI elements like buttons, forms, etc., and figuring out the different ways these elements can be created by using various libraries and frameworks.  We wish to motivate beginners to explore the field of web development by actually doing and searching the methods of coding a website.
